@@ -14,17 +14,19 @@ Training: The model is trained on a portion of the car data, where it learns the
 Model Deployment:
 
 Streamlit: This creates a user-friendly web application. Users can input car features, and the trained model predicts the car's price based on the learned relationship.
-Overall Process
 
-Load car data from a CSV file using pandas (likely imported with NumPy).
-Clean and prepare the data for modeling.
-Define features that influence car price (e.g., mileage, year, make, model).
-Create a linear regression model using scikit-learn.
-Train the model on a portion of the data.
-Evaluate the model's performance to assess its accuracy.
-Build a Streamlit web app where users can input car features.
-Use the trained model within the app to predict car prices based on user input.
-Benefits
+Overall Process:
+
+1.Load car data from a CSV file using pandas (likely imported with NumPy).
+2.Clean and prepare the data for modeling.
+3.Define features that influence car price (e.g., mileage, year, make, model).
+4.Create a linear regression model using scikit-learn.
+5.Train the model on a portion of the data.
+6.Evaluate the model's performance to assess its accuracy.
+7.Build a Streamlit web app where users can input car features.
+8.Use the trained model within the app to predict car prices based on user input.
+
+Benefits:
 
 Easy to understand: Linear regression offers a clear interpretation of how features affect car prices.
 Fast predictions: Streamlit allows for quick price predictions through the web app.
